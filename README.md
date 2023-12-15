@@ -62,5 +62,5 @@ body {
 ## Author
 
 - Website - [Smailen](https://github.com/Smailen5)
-- Frontend Mentor - [@Smailen](https://www.frontendmentor.io/profile/yourusername)
-- Linkedin - [@Smailen](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Smailen](https://www.frontendmentor.io/profile/Smailen5)
+- Linkedin - [@Smailen](https://www.linkedin.com/in/smailen-vargas/)
