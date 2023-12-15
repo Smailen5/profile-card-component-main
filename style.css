@@ -25,6 +25,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 
 /* ---------- Immagine sfondo background card ---------- */
@@ -33,4 +35,78 @@ main img {
     width: 350px;
     height: 140px;
     border-radius: 15px 15px 0 0;
+}
+
+/* ---------- Immagine profilo ---------- */
+#profile-img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    top: 92px;
+    border: 5px solid white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cnt-details {
+    margin-top: 20px;
+}
+
+.container .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .details h1 {
+    margin: 10px;
+}
+
+.details span {
+    font-weight: 400;
+}
+.container p{
+    /* margin-bottom: 40px; */
+}
+
+.block {
+    width: 100%;
+    height: 1px;
+    background: black;
+    margin: 25px 0;
+}
+
+
+/* ---------- Dati footer ---------- */
+
+.data {
+    display: flex;
+    gap: 30px;
+}
+
+.data p {
+    /* display: flex; */
+}
+
+.data span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+p span {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+p span span {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
