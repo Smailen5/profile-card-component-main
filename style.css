@@ -15,6 +15,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+/* ---------- Sfere colorate ---------- */
+
+.cnt-img {
+    position: absolute;
+    bottom: 204px;
+    right: 770px;
+}
+
+.cnt-img.img2 {
+    top: 431px;
+    left: 638px;
 }
 
 main {
@@ -27,6 +41,8 @@ main {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 20px hsl(229, 23%, 23%);
 }
 
 /* ---------- Immagine sfondo background card ---------- */
