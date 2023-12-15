@@ -4,6 +4,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+body {
     width: 1440px;
     height: 720px;
+    background: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: white;
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- Immagine sfondo background card ---------- */
+
+main img {
+    width: 350px;
+    height: 140px;
+    border-radius: 15px 15px 0 0;
 }
